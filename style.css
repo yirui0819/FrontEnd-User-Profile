@@ -1,0 +1,97 @@
+body {
+    background-color:hsl(185, 75%, 39%) !important;
+    font-family: 'Kumbh Sans', sans-serif !important;
+}
+
+.bold-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+.md-text {
+    font-size: 17px;
+    color: hsl(227, 10%, 46%);
+}
+.sm-text {
+    font-size: 13px;
+    color: hsl(227, 10%, 46%);
+}
+
+.main-card {
+    text-align: center;
+    width: 30%;
+    height: 25%;
+    margin:5% auto;
+    font-size: 18px;
+    border: hidden;
+}
+
+.bg-card {
+    height: 8rem ;
+    border: hidden;
+}
+
+.bio-image {
+    border-radius: 50%;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-15%;
+
+    border-style: solid;
+    border-width:2px;
+    border-color:white;
+    z-index: 1;
+}
+
+.card-body{
+    margin-top: 10%;
+}
+
+.bg-top {
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    right:50%;
+    bottom: 45%;
+    background-image: url("images/bg-pattern-top.svg");
+    background-position: 80% 80%;
+    background-repeat: no-repeat;
+
+
+    border-style: hidden;
+    z-index: -1;
+}
+
+.bg-bot {
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    left:40%;
+    top: 40%;
+    background-image: url("images/bg-pattern-bottom.svg");
+    background-position: -50% 0%;
+    background-repeat: no-repeat;
+
+    border-style: hidden;
+    z-index: -1;
+}
+
+.attribution { 
+    font-size: 1rem; 
+    text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width: 700px) {
+    .main-card {
+        text-align: center;
+        width: 75%;
+        height: 100%;
+        margin: 20% auto;
+        font-size: 18px;
+        border: hidden;
+    }
+    }
+
